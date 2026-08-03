@@ -5,7 +5,16 @@ import os
 
 # Load API Key
 
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+import streamlit as st
+from groq import Groq
+
+# IDI KOTHADI - BOTH WAYS CHECK CHESTHUNDI
+try:
+    api_key = st.secrets["GROQ_API_KEY"]
+except:
+    api_key = st.secrets.get("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 
 # Page Setup
 st.set_page_config(page_title="AI Personal Diary Assistant", page_icon="✨")
