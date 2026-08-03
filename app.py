@@ -8,7 +8,7 @@ load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Page Setup
-st.set_page_config(page_title="AI Daily Planner", page_icon="✨")
+st.set_page_config(page_title="AI Personal Diary Assistant", page_icon="✨")
 st.title("✨ AI Personal Diary Assistant")
 st.write("Tell me your task and mood, I'll create a 5-point plan for you")
 
