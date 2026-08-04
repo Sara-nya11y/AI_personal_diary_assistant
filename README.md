@@ -35,14 +35,11 @@ This project solves that by using Artificial Intelligence to instantly analyse d
 | **Llama 3.3 70B** | The LLM model used for understanding text |
 | **python-dotenv** | Secure API key management for local development |
 
-AI_Personal_Diary_Assistant/
-│
-├── app.py              # Main application code
-├── requirements.txt    # Python dependencies
-├── .env                # API Key storage - DO NOT UPLOAD
-├── .gitignore          # Files to ignore in git
-├── diary_entries.txt   # Auto-generated: stores all diaries
-└── README.md           # Project documentation
+---
+
+## 📂 Project Structure
+
+
 ---
 
 ## 📊 System Architecture / Block Diagram
