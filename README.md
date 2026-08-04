@@ -1,35 +1,40 @@
 # 📖 AI Personal Diary Assistant
 
-> "Turn your daily thoughts into insights with AI"
+> "Turn your daily thoughts into AI-powered insights"
 
-An intelligent diary application that uses Groq's Llama 3.3 to analyze your daily journal entries and provide personalized mood analysis, summaries, and mental wellness suggestions.
-
-**Live Demo**: _Add your Streamlit link here after deploying_  
-**Built with**: Streamlit + Groq API + Python
+## 📌 Project Overview
+AI Personal Diary Assistant is a Streamlit-based web application that helps users maintain a digital diary. The application uses the **Groq LLM API** with **Llama 3.3 70B Versatile** to analyse diary entries, detect the user's mood, generate a summary, and provide positive suggestions.
 
 ---
 
-## 🌟 Key Features
+## 🎯 Problem Statement
+People often write daily journals but find it difficult to understand their emotional patterns and get actionable feedback. Reading old diaries and finding patterns is time-consuming. 
 
-### 1. **📝 Daily Journaling**
-Clean and distraction-free text area to write your daily thoughts and experiences.
-
-### 2. **💾 Secure Local Storage** 
-All diary entries are automatically saved with date and timestamp in `diary_entries.txt` for future reference.
-
-### 3. **🤖 AI-Powered Analysis**
-Powered by `llama-3.3-70b-versatile` on Groq for ultra-fast responses.
-- **Mood Detection**: Understands the emotional tone of your entry
-- **Smart Summary**: Converts long paragraphs into 2-3 line summaries
-- **Positive Suggestions**: Gives 3 personalized actionable tips to improve your day
-
-### 4. **🎨 Simple UI**
-Built with Streamlit for a clean, mobile-friendly interface. No login needed.
+This project solves that by using Artificial Intelligence to instantly analyse diary entries and provide meaningful insights to improve mental well-being and self-awareness.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Key Features
+- **📝 Write Daily Diary Entries** - Clean and distraction-free text editor
+- **💾 Auto Save with Timestamp** - All entries saved with date and time in `diary_entries.txt`
+- **😊 AI Mood Detection** - Detects emotions like Happy, Sad, Stressed, Motivated, Anxious etc
+- **📄 AI-generated Summary** - Converts long paragraphs into 2-3 line summary
+- **💡 Positive Suggestions** - Get 3 personalized actionable tips to improve your day
+- **📅 Date-wise Recording** - Track and read old entries easily
+- **📱 Responsive Design** - Works on mobile, tablet, and desktop
+- **🤖 Powered by Groq LLM** - Ultra-fast AI responses using Llama 3.3 70B
 
-| Category | Technology |
+---
+
+## 🛠️ Technologies Used
+| Technology | Purpose |
 | --- | --- |
-| **Frontend** | Streamlit
+| **Python 3.9+** | Core programming language |
+| **Streamlit** | Web app frontend and UI framework |
+| **Groq API** | AI/LLM for analysis and suggestions |
+| **Llama 3.3 70B** | The LLM model used for understanding text |
+| **python-dotenv** | Secure API key management for local development |
+
+---
+
+## 📂 Project Structure
