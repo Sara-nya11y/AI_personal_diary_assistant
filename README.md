@@ -1,21 +1,35 @@
-# ✨ AI Personal Diart Assistant
+# 📖 AI Personal Diary Assistant
 
-An AI-powered app that creates a personalized 5-point daily plan based on your task, time, and mood. Built with Streamlit and Groq AI.
+> "Turn your daily thoughts into insights with AI"
 
-## 🚀 Features
-- Takes your main task, available time, and mood as input
-- Generates a simple, practical 5-point plan in clear English
-- Fast and free using Groq's Llama model
+An intelligent diary application that uses Groq's Llama 3.3 to analyze your daily journal entries and provide personalized mood analysis, summaries, and mental wellness suggestions.
+
+**Live Demo**: _Add your Streamlit link here after deploying_  
+**Built with**: Streamlit + Groq API + Python
+
+---
+
+## 🌟 Key Features
+
+### 1. **📝 Daily Journaling**
+Clean and distraction-free text area to write your daily thoughts and experiences.
+
+### 2. **💾 Secure Local Storage** 
+All diary entries are automatically saved with date and timestamp in `diary_entries.txt` for future reference.
+
+### 3. **🤖 AI-Powered Analysis**
+Powered by `llama-3.3-70b-versatile` on Groq for ultra-fast responses.
+- **Mood Detection**: Understands the emotional tone of your entry
+- **Smart Summary**: Converts long paragraphs into 2-3 line summaries
+- **Positive Suggestions**: Gives 3 personalized actionable tips to improve your day
+
+### 4. **🎨 Simple UI**
+Built with Streamlit for a clean, mobile-friendly interface. No login needed.
+
+---
 
 ## 🛠️ Tech Stack
-- **Python**
-- **Streamlit** - for the web app UI
-- **Groq API** - for AI plan generation
-- **python-dotenv** - to safely store API keys
 
-## ⚙️ How to Run Locally
-
-1.  **Clone the repo**
-    ```bash
-    git clone https://github.com/Sara-nya11y/ai-daily-planner.git
-    cd ai-daily-planner
+| Category | Technology |
+| --- | --- |
+| **Frontend** | Streamlit
